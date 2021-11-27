@@ -9,7 +9,7 @@ export default class App extends Component {
       <div>
         <Header/>
         <Menu/>
-        <Content/>
+        <Content/> //El contenido
         <Footer/>
       </div>
     )

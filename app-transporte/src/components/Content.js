@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-
+//El contenido
 export default class Content extends Component {
     render() {
         return (
