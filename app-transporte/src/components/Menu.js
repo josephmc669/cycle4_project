@@ -49,6 +49,7 @@ export default class Menu extends Component {
           <div className="menu-divider m-0" />
         </div>
         <div className="menu-header">Navigation</div>
+        
         <div className="menu-item has-sub active">
           <a href="javascript:;" className="menu-link">
             <div className="menu-icon">
@@ -69,6 +70,7 @@ export default class Menu extends Component {
             </div>
           </div>
         </div>
+
         <div className="menu-item has-sub">
           <a href="javascript:;" className="menu-link">
             <div className="menu-icon">
