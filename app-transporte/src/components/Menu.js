@@ -1,6 +1,13 @@
 import React, { Component } from 'react'
+import { Link } from "react-router-dom";
 
 export default class Menu extends Component {
+
+    handleClick = (e) => {
+      e.preventDefault();
+      console.log('The link was clicked.');
+    };
+    //onClick={this.handleClick}>
     render() {
         return (
             <div>
@@ -11,10 +18,10 @@ export default class Menu extends Component {
       {/* BEGIN menu */}
       <div className="menu">
         <div className="menu-profile">
-          <a href="javascript:;" className="menu-profile-link" data-toggle="app-sidebar-profile" data-target="#appSidebarProfileMenu">
+          <a href="/Profile" className="menu-profile-link" data-toggle="app-sidebar-profile" data-target="#appSidebarProfileMenu">
             <div className="menu-profile-cover with-shadow" />
             <div className="menu-profile-image">
-              <img src="../assets/img/user/user-13.jpg" alt />
+              <img src="../assets/img/user/user-13.jpg" alt="Imagen" />
             </div>
             <div className="menu-profile-info">
               <div className="d-flex align-items-center">
@@ -29,19 +36,19 @@ export default class Menu extends Component {
         </div>
         <div id="appSidebarProfileMenu" className="collapse">
           <div className="menu-item pt-5px">
-            <a href="javascript:;" className="menu-link">
+            <a href="/Settings" className="menu-link">
               <div className="menu-icon"><i className="fa fa-cog" /></div>
               <div className="menu-text">Settings</div>
             </a>
           </div>
           <div className="menu-item">
-            <a href="javascript:;" className="menu-link">
+            <a href="/SendFeedback" className="menu-link">
               <div className="menu-icon"><i className="fa fa-pencil-alt" /></div>
               <div className="menu-text"> Send Feedback</div>
             </a>
           </div>
           <div className="menu-item pb-5px">
-            <a href="javascript:;" className="menu-link">
+            <a href="/Helps" className="menu-link">
               <div className="menu-icon"><i className="fa fa-question-circle" /></div>
               <div className="menu-text"> Helps</div>
             </a>
@@ -51,91 +58,91 @@ export default class Menu extends Component {
         <div className="menu-header">Operaciones</div>
         
         <div className="menu-item">
-          <a href="javascript:;" className="menu-link">
+          <Link to="/Dashboard" className="menu-link">
             <div className="menu-icon">
               <i className="fa fa-th-large" />
             </div>
             <div className="menu-text">Dashboard</div>
-          </a>          
+          </Link>          
         </div>
 
         <div className="menu-item">
-          <a href="javascript:;" className="menu-link">
+          <Link to="/Facturas" className="menu-link">
             <div className="menu-icon">
               <i className="fa fa-money-bill-alt" />
             </div>
             <div className="menu-text">Facturas</div>
-          </a>          
+          </Link>          
         </div>
 
         <div className="menu-item">
-          <a href="javascript:;" className="menu-link">
+          <Link to="/Ordenes" className="menu-link">
             <div className="menu-icon">
               <i className="fa fa-shopping-cart" />
             </div>
             <div className="menu-text">Ordenes</div>
-          </a>          
+          </Link>          
         </div>
 
         <div className="menu-item">
-          <a href="javascript:;" className="menu-link">
+          <Link to="/Reportes" className="menu-link">
             <div className="menu-icon">
               <i className="fa fa-print" />
             </div>
             <div className="menu-text">Reportes</div>
-          </a>          
+          </Link>          
         </div>
 
         <div className="menu-header">Datos Basicos</div>
 
         <div className="menu-item">
-          <a href="javascript:;" className="menu-link">
+          <Link to="/Clientes" className="menu-link">
             <div className="menu-icon">
               <i className="fa fa-users" />
             </div>
             <div className="menu-text">Clientes</div>
-          </a>          
+          </Link>          
         </div>
 
         <div className="menu-item">
-          <a href="javascript:;" className="menu-link">
+          <Link to="/Vehiculos" className="menu-link">
             <div className="menu-icon">
               <i className="fa fa-ship" />
             </div>
             <div className="menu-text">Vehiculos</div>
-          </a>          
+          </Link>          
         </div>
 
         <div className="menu-item">
-          <a href="javascript:;" className="menu-link">
+          <Link to="/Puertos" className="menu-link">
             <div className="menu-icon">
               <i className="fa fa-building" />
             </div>
             <div className="menu-text">Puertos</div>
-          </a>          
+          </Link>          
         </div>
 
         <div className="menu-item">
-          <a href="javascript:;" className="menu-link">
+          <Link to="/Tarifas" className="menu-link">
             <div className="menu-icon">
               <i className="fa fa-tags" />
             </div>
             <div className="menu-text">Tarifas</div>
-          </a>          
+          </Link>          
         </div>
 
         <div className="menu-item">
-          <a href="javascript:;" className="menu-link">
+          <Link to="/DatosEmpresa" className="menu-link">
             <div className="menu-icon">
               <i className="fa fa-home" />
             </div>
             <div className="menu-text">Datos Empresa</div>
-          </a>          
+          </Link>          
         </div>
         
         {/* BEGIN minify-button */}
         <div className="menu-item d-flex">
-          <a href="javascript:;" className="app-sidebar-minify-btn ms-auto" data-toggle="app-sidebar-minify"><i className="fa fa-angle-double-left" /></a>
+          <a href="/" className="app-sidebar-minify-btn ms-auto" data-toggle="app-sidebar-minify"><i className="fa fa-angle-double-left" /></a>
         </div>
         {/* END minify-button */}
       </div>
@@ -144,7 +151,7 @@ export default class Menu extends Component {
     {/* END scrollbar */}
   </div>
   <div className="app-sidebar-bg" />
-  <div className="app-sidebar-mobile-backdrop"><a href="#" data-dismiss="app-sidebar-mobile" className="stretched-link" /></div>
+  <div className="app-sidebar-mobile-backdrop"><a href="/" data-dismiss="app-sidebar-mobile" className="stretched-link" /></div>
   {/* END #sidebar */}
 </div>
 

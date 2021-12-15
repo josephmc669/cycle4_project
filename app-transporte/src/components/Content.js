@@ -8,7 +8,7 @@ export default class Content extends Component {
   <div id="content" className="app-content">
     {/* BEGIN breadcrumb */}
     <ol className="breadcrumb float-xl-end">
-      <li className="breadcrumb-item"><a href="javascript:;">Home</a></li>
+      <li className="breadcrumb-item"><a href="/">Home</a></li>
       <li className="breadcrumb-item active">Dashboard</li>
     </ol>
     {/* END breadcrumb */}
@@ -26,7 +26,7 @@ export default class Content extends Component {
             <p>3,291,922</p>	
           </div>
           <div className="stats-link">
-            <a href="javascript:;">View Detail <i className="fa fa-arrow-alt-circle-right" /></a>
+            <a href="/">View Detail <i className="fa fa-arrow-alt-circle-right" /></a>
           </div>
         </div>
       </div>
@@ -40,7 +40,7 @@ export default class Content extends Component {
             <p>20.44%</p>	
           </div>
           <div className="stats-link">
-            <a href="javascript:;">View Detail <i className="fa fa-arrow-alt-circle-right" /></a>
+            <a href="/">View Detail <i className="fa fa-arrow-alt-circle-right" /></a>
           </div>
         </div>
       </div>
@@ -54,7 +54,7 @@ export default class Content extends Component {
             <p>1,291,922</p>	
           </div>
           <div className="stats-link">
-            <a href="javascript:;">View Detail <i className="fa fa-arrow-alt-circle-right" /></a>
+            <a href="/">View Detail <i className="fa fa-arrow-alt-circle-right" /></a>
           </div>
         </div>
       </div>
@@ -68,7 +68,7 @@ export default class Content extends Component {
             <p>00:12:23</p>	
           </div>
           <div className="stats-link">
-            <a href="javascript:;">View Detail <i className="fa fa-arrow-alt-circle-right" /></a>
+            <a href="/">View Detail <i className="fa fa-arrow-alt-circle-right" /></a>
           </div>
         </div>
       </div>
@@ -84,10 +84,10 @@ export default class Content extends Component {
           <div className="panel-heading">
             <h4 className="panel-title">Website Analytics (Last 7 Days)</h4>
             <div className="panel-heading-btn">
-              <a href="javascript:;" className="btn btn-xs btn-icon btn-default" data-toggle="panel-expand"><i className="fa fa-expand" /></a>
-              <a href="javascript:;" className="btn btn-xs btn-icon btn-success" data-toggle="panel-reload"><i className="fa fa-redo" /></a>
-              <a href="javascript:;" className="btn btn-xs btn-icon btn-warning" data-toggle="panel-collapse"><i className="fa fa-minus" /></a>
-              <a href="javascript:;" className="btn btn-xs btn-icon btn-danger" data-toggle="panel-remove"><i className="fa fa-times" /></a>
+              <a href="/" className="btn btn-xs btn-icon btn-default" data-toggle="panel-expand"><i className="fa fa-expand" /></a>
+              <a href="/" className="btn btn-xs btn-icon btn-success" data-toggle="panel-reload"><i className="fa fa-redo" /></a>
+              <a href="/" className="btn btn-xs btn-icon btn-warning" data-toggle="panel-collapse"><i className="fa fa-minus" /></a>
+              <a href="/" className="btn btn-xs btn-icon btn-danger" data-toggle="panel-remove"><i className="fa fa-times" /></a>
             </div>
           </div>
           <div className="panel-body pe-1">
@@ -105,8 +105,8 @@ export default class Content extends Component {
           <div className="tab-pane fade active show" id="latest-post">
             <div className="h-300px p-3" data-scrollbar="true">
               <div className="d-sm-flex">
-                <a href="javascript:;" className="w-sm-200px">
-                  <img className="mw-100 rounded" src="../assets/img/gallery/gallery-1.jpg" alt />
+                <a href="/" className="w-sm-200px">
+                  <img className="mw-100 rounded" src="../assets/img/gallery/gallery-1.jpg" alt="Imagen" />
                 </a>
                 <div className="flex-1 ps-sm-3 pt-3 pt-sm-0">
                   <h5>Aenean viverra arcu nec pellentesque ultrices. In erat purus, adipiscing nec lacinia at, ornare ac eros.</h5>
@@ -115,8 +115,8 @@ export default class Content extends Component {
               </div>
               <hr className="bg-gray-500" />
               <div className="d-sm-flex">
-                <a href="javascript:;" className="w-sm-200px">
-                  <img className="mw-100 rounded" src="../assets/img/gallery/gallery-10.jpg" alt />
+                <a href="/" className="w-sm-200px">
+                  <img className="mw-100 rounded" src="../assets/img/gallery/gallery-10.jpg" alt="Imagen" />
                 </a>
                 <div className="flex-1 ps-sm-3 pt-3 pt-sm-0">
                   <h5>Vestibulum vitae diam nec odio dapibus placerat. Ut ut lorem justo.</h5>
@@ -125,8 +125,8 @@ export default class Content extends Component {
               </div>
               <hr className="bg-gray-500" />
               <div className="d-sm-flex">
-                <a href="javascript:;" className="w-sm-200px">
-                  <img className="mw-100 rounded" src="../assets/img/gallery/gallery-7.jpg" alt />
+                <a href="/" className="w-sm-200px">
+                  <img className="mw-100 rounded" src="../assets/img/gallery/gallery-7.jpg" alt="Imagen" />
                 </a>
                 <div className="flex-1 ps-sm-3 pt-3 pt-sm-0">
                   <h5>Maecenas eget turpis luctus, scelerisque arcu id, iaculis urna. Interdum et malesuada fames ac ante ipsum primis in faucibus.</h5>
@@ -135,8 +135,8 @@ export default class Content extends Component {
               </div>
               <hr className="bg-gray-500" />
               <div className="d-sm-flex">
-                <a href="javascript:;" className="w-sm-200px">
-                  <img className="mw-100 rounded" src="../assets/img/gallery/gallery-8.jpg" alt />
+                <a href="/" className="w-sm-200px">
+                  <img className="mw-100 rounded" src="../assets/img/gallery/gallery-8.jpg" alt="Imagen" />
                 </a>
                 <div className="flex-1 ps-sm-3 pt-3 pt-sm-0">
                   <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor accumsan rutrum.</h5>
@@ -161,67 +161,67 @@ export default class Content extends Component {
                   <tr>
                     <td className="fw-bold text-muted">13/02/2021</td>
                     <td className="hidden-sm text-center">
-                      <a href="javascript:;">
-                        <img src="../assets/img/product/product-1.png" alt width="32px" />
+                      <a href="/">
+                        <img src="../assets/img/product/product-1.png" alt="Imagen" width="32px" />
                       </a>
                     </td>
                     <td className="text-nowrap">
-                      <h6><a href="javascript:;" className="text-inverse text-decoration-none">Nunc eleifend lorem eu velit eleifend, <br />eget faucibus nibh placerat.</a></h6>
+                      <h6><a href="/" className="text-inverse text-decoration-none">Nunc eleifend lorem eu velit eleifend, <br />eget faucibus nibh placerat.</a></h6>
                     </td>
                     <td className="text-blue fw-bold">$349.00</td>
-                    <td className="text-nowrap"><a href="javascript:;" className="text-inverse text-decoration-none">Derick Wong</a></td>
+                    <td className="text-nowrap"><a href="/" className="text-inverse text-decoration-none">Derick Wong</a></td>
                   </tr>
                   <tr>
                     <td className="fw-bold text-muted">13/02/2021</td>
                     <td className="hidden-sm text-center">
-                      <a href="javascript:;">
-                        <img src="../assets/img/product/product-2.png" alt width="32px" />
+                      <a href="/">
+                        <img src="../assets/img/product/product-2.png" alt="Imagen" width="32px" />
                       </a>
                     </td>
                     <td className="text-nowrap">
-                      <h6><a href="javascript:;" className="text-inverse text-decoration-none">Nunc eleifend lorem eu velit eleifend, <br />eget faucibus nibh placerat.</a></h6>
+                      <h6><a href="/" className="text-inverse text-decoration-none">Nunc eleifend lorem eu velit eleifend, <br />eget faucibus nibh placerat.</a></h6>
                     </td>
                     <td className="text-blue fw-bold">$399.00</td>
-                    <td className="text-nowrap"><a href="javascript:;" className="text-inverse text-decoration-none">Derick Wong</a></td>
+                    <td className="text-nowrap"><a href="/" className="text-inverse text-decoration-none">Derick Wong</a></td>
                   </tr>
                   <tr>
                     <td className="fw-bold text-muted">13/02/2021</td>
                     <td className="hidden-sm text-center">
-                      <a href="javascript:;">
-                        <img src="../assets/img/product/product-3.png" alt width="32px" />
+                      <a href="/">
+                        <img src="../assets/img/product/product-3.png" alt="Imagen" width="32px" />
                       </a>
                     </td>
                     <td className="text-nowrap">
-                      <h6><a href="javascript:;" className="text-inverse text-decoration-none">Nunc eleifend lorem eu velit eleifend, <br />eget faucibus nibh placerat.</a></h6>
+                      <h6><a href="/" className="text-inverse text-decoration-none">Nunc eleifend lorem eu velit eleifend, <br />eget faucibus nibh placerat.</a></h6>
                     </td>
                     <td className="text-blue fw-bold">$499.00</td>
-                    <td className="text-nowrap"><a href="javascript:;" className="text-inverse text-decoration-none">Derick Wong</a></td>
+                    <td className="text-nowrap"><a href="/" className="text-inverse text-decoration-none">Derick Wong</a></td>
                   </tr>
                   <tr>
                     <td className="fw-bold text-muted">13/02/2021</td>
                     <td className="hidden-sm text-center">
-                      <a href="javascript:;">
-                        <img src="../assets/img/product/product-4.png" alt width="32px" />
+                      <a href="/">
+                        <img src="../assets/img/product/product-4.png" alt="Imagen" width="32px" />
                       </a>
                     </td>
                     <td className="text-nowrap">
-                      <h6><a href="javascript:;" className="text-inverse text-decoration-none">Nunc eleifend lorem eu velit eleifend, <br />eget faucibus nibh placerat.</a></h6>
+                      <h6><a href="/" className="text-inverse text-decoration-none">Nunc eleifend lorem eu velit eleifend, <br />eget faucibus nibh placerat.</a></h6>
                     </td>
                     <td className="text-blue fw-bold">$230.00</td>
-                    <td className="text-nowrap"><a href="javascript:;" className="text-inverse text-decoration-none">Derick Wong</a></td>
+                    <td className="text-nowrap"><a href="/" className="text-inverse text-decoration-none">Derick Wong</a></td>
                   </tr>
                   <tr>
                     <td className="fw-bold text-muted">13/02/2021</td>
                     <td className="hidden-sm text-center">
-                      <a href="javascript:;">
-                        <img src="../assets/img/product/product-5.png" alt width="32px" />
+                      <a href="/">
+                        <img src="../assets/img/product/product-5.png" alt="Imagen" width="32px" />
                       </a>
                     </td>
                     <td className="text-nowrap">
-                      <h6><a href="javascript:;" className="text-inverse text-decoration-none">Nunc eleifend lorem eu velit eleifend, <br />eget faucibus nibh placerat.</a></h6>
+                      <h6><a href="/" className="text-inverse text-decoration-none">Nunc eleifend lorem eu velit eleifend, <br />eget faucibus nibh placerat.</a></h6>
                     </td>
                     <td className="text-blue fw-bold">$500.00</td>
-                    <td className="text-nowrap"><a href="javascript:;" className="text-inverse text-decoration-none">Derick Wong</a></td>
+                    <td className="text-nowrap"><a href="/" className="text-inverse text-decoration-none">Derick Wong</a></td>
                   </tr>
                 </tbody>
               </table>
@@ -230,11 +230,11 @@ export default class Content extends Component {
           <div className="tab-pane fade" id="email">
             <div className="h-300px p-3" data-scrollbar="true">
               <div className="d-flex">
-                <a className="w-60px" href="javascript:;">
-                  <img src="../assets/img/user/user-1.jpg" alt className="mw-100 rounded-pill" />
+                <a className="w-60px" href="/">
+                  <img src="../assets/img/user/user-1.jpg" alt="Imagen" className="mw-100 rounded-pill" />
                 </a>
                 <div className="flex-1 ps-3">
-                  <a href="javascript:;" className="text-inverse text-decoration-none"><h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5></a>
+                  <a href="/" className="text-inverse text-decoration-none"><h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5></a>
                   <p className="mb-5px">
                     Aenean mollis arcu sed turpis accumsan dignissim. Etiam vel tortor at risus tristique convallis. Donec adipiscing euismod arcu id euismod. Suspendisse potenti. Aliquam lacinia sapien ac urna placerat, eu interdum mauris viverra.
                   </p>
@@ -243,11 +243,11 @@ export default class Content extends Component {
               </div>
               <hr className="bg-gray-500" />
               <div className="d-flex">
-                <a className="w-60px" href="javascript:;">
-                  <img src="../assets/img/user/user-2.jpg" alt className="mw-100 rounded-pill" />
+                <a className="w-60px" href="/">
+                  <img src="../assets/img/user/user-2.jpg" alt="Imagen" className="mw-100 rounded-pill" />
                 </a>
                 <div className="flex-1 ps-3">
-                  <a href="javascript:;" className="text-inverse text-decoration-none"><h5>Praesent et sem porta leo tempus tincidunt eleifend et arcu.</h5></a>
+                  <a href="/" className="text-inverse text-decoration-none"><h5>Praesent et sem porta leo tempus tincidunt eleifend et arcu.</h5></a>
                   <p className="mb-5px">
                     Proin adipiscing dui nulla. Duis pharetra vel sem ac adipiscing. Vestibulum ut porta leo. Pellentesque orci neque, tempor ornare purus nec, fringilla venenatis elit. Duis at est non nisl dapibus lacinia.
                   </p>
@@ -256,11 +256,11 @@ export default class Content extends Component {
               </div>
               <hr className="bg-gray-500" />
               <div className="d-flex">
-                <a className="w-60px" href="javascript:;">
-                  <img src="../assets/img/user/user-3.jpg" alt className="mw-100 rounded-pill" />
+                <a className="w-60px" href="/">
+                  <img src="../assets/img/user/user-3.jpg" alt="Imagen" className="mw-100 rounded-pill" />
                 </a>
                 <div className="flex-1 ps-3">
-                  <a href="javascript:;" className="text-inverse text-decoration-none"><h5>Ut mi eros, varius nec mi vel, consectetur convallis diam.</h5></a>
+                  <a href="/" className="text-inverse text-decoration-none"><h5>Ut mi eros, varius nec mi vel, consectetur convallis diam.</h5></a>
                   <p className="mb-5px">
                     Ut mi eros, varius nec mi vel, consectetur convallis diam. Nullam eget hendrerit eros. Duis lacinia condimentum justo at ultrices. Phasellus sapien arcu, fringilla eu pulvinar id, mattis quis mauris.
                   </p>
@@ -269,11 +269,11 @@ export default class Content extends Component {
               </div>
               <hr className="bg-gray-500" />
               <div className="d-flex">
-                <a className="w-60px" href="javascript:;">
-                  <img src="../assets/img/user/user-4.jpg" alt className="mw-100 rounded-pill" />
+                <a className="w-60px" href="/">
+                  <img src="../assets/img/user/user-4.jpg" alt="Imagen" className="mw-100 rounded-pill" />
                 </a>
                 <div className="flex-1 ps-3">
-                  <a href="javascript:;" className="text-inverse text-decoration-none"><h5>Aliquam nec dolor vel nisl dictum ullamcorper.</h5></a>
+                  <a href="/" className="text-inverse text-decoration-none"><h5>Aliquam nec dolor vel nisl dictum ullamcorper.</h5></a>
                   <p className="mb-5px">
                     Aliquam nec dolor vel nisl dictum ullamcorper. Duis vel magna enim. Aenean volutpat a dui vitae pulvinar. Nullam ligula mauris, dictum eu ullamcorper quis, lacinia nec mauris.
                   </p>
@@ -289,30 +289,30 @@ export default class Content extends Component {
           <div className="panel-heading">
             <h4 className="panel-title">Quick Post</h4>
             <div className="panel-heading-btn">
-              <a href="javascript:;" className="btn btn-xs btn-icon btn-default" data-toggle="panel-expand"><i className="fa fa-expand" /></a>
-              <a href="javascript:;" className="btn btn-xs btn-icon btn-success" data-toggle="panel-reload"><i className="fa fa-redo" /></a>
-              <a href="javascript:;" className="btn btn-xs btn-icon btn-warning" data-toggle="panel-collapse"><i className="fa fa-minus" /></a>
-              <a href="javascript:;" className="btn btn-xs btn-icon btn-danger" data-toggle="panel-remove"><i className="fa fa-times" /></a>
+              <a href="/" className="btn btn-xs btn-icon btn-default" data-toggle="panel-expand"><i className="fa fa-expand" /></a>
+              <a href="/" className="btn btn-xs btn-icon btn-success" data-toggle="panel-reload"><i className="fa fa-redo" /></a>
+              <a href="/" className="btn btn-xs btn-icon btn-warning" data-toggle="panel-collapse"><i className="fa fa-minus" /></a>
+              <a href="/" className="btn btn-xs btn-icon btn-danger" data-toggle="panel-remove"><i className="fa fa-times" /></a>
             </div>
           </div>
           <div className="panel-toolbar">
             <div className="btn-group me-5px">
-              <a className="btn btn-white" href="javascript:;"><i className="fa fa-bold" /></a>
-              <a className="btn btn-white active" href="javascript:;"><i className="fa fa-italic" /></a>
-              <a className="btn btn-white" href="javascript:;"><i className="fa fa-underline" /></a>
+              <a className="btn btn-white" href="/"><i className="fa fa-bold" /></a>
+              <a className="btn btn-white active" href="/"><i className="fa fa-italic" /></a>
+              <a className="btn btn-white" href="/"><i className="fa fa-underline" /></a>
             </div>
             <div className="btn-group">
-              <a className="btn btn-white" href="javascript:;"><i className="fa fa-align-left" /></a>
-              <a className="btn btn-white active" href="javascript:;"><i className="fa fa-align-center" /></a>
-              <a className="btn btn-white" href="javascript:;"><i className="fa fa-align-right" /></a>
-              <a className="btn btn-white" href="javascript:;"><i className="fa fa-align-justify" /></a>
+              <a className="btn btn-white" href="/"><i className="fa fa-align-left" /></a>
+              <a className="btn btn-white active" href="/"><i className="fa fa-align-center" /></a>
+              <a className="btn btn-white" href="/"><i className="fa fa-align-right" /></a>
+              <a className="btn btn-white" href="/"><i className="fa fa-align-justify" /></a>
             </div>
           </div>
           <hr className="m-0" />
           <textarea className="form-control rounded-0 border-0 shadow-none bg-gray-200 p-3" rows={14} defaultValue={"Enter some comment."} />
           <div className="panel-footer text-end">
-            <a href="javascript:;" className="btn btn-white btn-sm">Cancel</a>
-            <a href="javascript:;" className="btn btn-primary btn-sm ms-5px">Action</a>
+            <a href="/" className="btn btn-white btn-sm">Cancel</a>
+            <a href="/" className="btn btn-primary btn-sm ms-5px">Action</a>
           </div>
         </div>
         {/* END panel */}
@@ -321,17 +321,17 @@ export default class Content extends Component {
           <div className="panel-heading">
             <h4 className="panel-title">Message</h4>
             <div className="panel-heading-btn">
-              <a href="javascript:;" className="btn btn-xs btn-icon btn-default" data-toggle="panel-expand"><i className="fa fa-expand" /></a>
-              <a href="javascript:;" className="btn btn-xs btn-icon btn-success" data-toggle="panel-reload"><i className="fa fa-redo" /></a>
-              <a href="javascript:;" className="btn btn-xs btn-icon btn-warning" data-toggle="panel-collapse"><i className="fa fa-minus" /></a>
-              <a href="javascript:;" className="btn btn-xs btn-icon btn-danger" data-toggle="panel-remove"><i className="fa fa-times" /></a>
+              <a href="/" className="btn btn-xs btn-icon btn-default" data-toggle="panel-expand"><i className="fa fa-expand" /></a>
+              <a href="/" className="btn btn-xs btn-icon btn-success" data-toggle="panel-reload"><i className="fa fa-redo" /></a>
+              <a href="/" className="btn btn-xs btn-icon btn-warning" data-toggle="panel-collapse"><i className="fa fa-minus" /></a>
+              <a href="/" className="btn btn-xs btn-icon btn-danger" data-toggle="panel-remove"><i className="fa fa-times" /></a>
             </div>
           </div>
           <div className="panel-body p-0">
             <div className="h-300px p-3" data-scrollbar="true">
               <div className="d-flex">
-                <a href="javascript:;" className="w-60px">
-                  <img src="../assets/img/user/user-5.jpg" alt className="mw-100 rounded-pill" />
+                <a href="/" className="w-60px">
+                  <img src="../assets/img/user/user-5.jpg" alt="Imagen" className="mw-100 rounded-pill" />
                 </a>
                 <div className="flex-1 ps-3">
                   <h5>John Doe</h5>
@@ -340,8 +340,8 @@ export default class Content extends Component {
               </div>
               <hr className="bg-gray-500" />
               <div className="d-flex">
-                <a href="javascript:;" className="w-60px">
-                  <img src="../assets/img/user/user-6.jpg" alt className="mw-100 rounded-pill" />
+                <a href="/" className="w-60px">
+                  <img src="../assets/img/user/user-6.jpg" alt="Imagen" className="mw-100 rounded-pill" />
                 </a>
                 <div className="flex-1 ps-3">
                   <h5>Terry Ng</h5>
@@ -350,8 +350,8 @@ export default class Content extends Component {
               </div>
               <hr className="bg-gray-500" />
               <div className="d-flex">
-                <a href="javascript:;" className="w-60px">
-                  <img src="../assets/img/user/user-8.jpg" alt className="mw-100 rounded-pill" />
+                <a href="/" className="w-60px">
+                  <img src="../assets/img/user/user-8.jpg" alt="Imagen" className="mw-100 rounded-pill" />
                 </a>
                 <div className="flex-1 ps-3">
                   <h5>Fiona Log</h5>
@@ -360,8 +360,8 @@ export default class Content extends Component {
               </div>
               <hr className="bg-gray-500" />
               <div className="d-flex">
-                <a href="javascript:;" className="w-60px">
-                  <img src="../assets/img/user/user-7.jpg" alt className="mw-100 rounded-pill" />
+                <a href="/" className="w-60px">
+                  <img src="../assets/img/user/user-7.jpg" alt="Imagen" className="mw-100 rounded-pill" />
                 </a>
                 <div className="flex-1 ps-3">
                   <h5>John Doe</h5>
@@ -389,10 +389,10 @@ export default class Content extends Component {
           <div className="panel-heading">
             <h4 className="panel-title">Analytics Details</h4>
             <div className="panel-heading-btn">
-              <a href="javascript:;" className="btn btn-xs btn-icon btn-default" data-toggle="panel-expand"><i className="fa fa-expand" /></a>
-              <a href="javascript:;" className="btn btn-xs btn-icon btn-success" data-toggle="panel-reload"><i className="fa fa-redo" /></a>
-              <a href="javascript:;" className="btn btn-xs btn-icon btn-warning" data-toggle="panel-collapse"><i className="fa fa-minus" /></a>
-              <a href="javascript:;" className="btn btn-xs btn-icon btn-danger" data-toggle="panel-remove"><i className="fa fa-times" /></a>
+              <a href="/" className="btn btn-xs btn-icon btn-default" data-toggle="panel-expand"><i className="fa fa-expand" /></a>
+              <a href="/" className="btn btn-xs btn-icon btn-success" data-toggle="panel-reload"><i className="fa fa-redo" /></a>
+              <a href="/" className="btn btn-xs btn-icon btn-warning" data-toggle="panel-collapse"><i className="fa fa-minus" /></a>
+              <a href="/" className="btn btn-xs btn-icon btn-danger" data-toggle="panel-remove"><i className="fa fa-times" /></a>
             </div>
           </div>
           <div className="table-responsive">
@@ -445,10 +445,10 @@ export default class Content extends Component {
           <div className="panel-heading">
             <h4 className="panel-title">Visitors User Agent</h4>
             <div className="panel-heading-btn">
-              <a href="javascript:;" className="btn btn-xs btn-icon btn-default" data-toggle="panel-expand"><i className="fa fa-expand" /></a>
-              <a href="javascript:;" className="btn btn-xs btn-icon btn-success" data-toggle="panel-reload"><i className="fa fa-redo" /></a>
-              <a href="javascript:;" className="btn btn-xs btn-icon btn-warning" data-toggle="panel-collapse"><i className="fa fa-minus" /></a>
-              <a href="javascript:;" className="btn btn-xs btn-icon btn-danger" data-toggle="panel-remove"><i className="fa fa-times" /></a>
+              <a href="/" className="btn btn-xs btn-icon btn-default" data-toggle="panel-expand"><i className="fa fa-expand" /></a>
+              <a href="/" className="btn btn-xs btn-icon btn-success" data-toggle="panel-reload"><i className="fa fa-redo" /></a>
+              <a href="/" className="btn btn-xs btn-icon btn-warning" data-toggle="panel-collapse"><i className="fa fa-minus" /></a>
+              <a href="/" className="btn btn-xs btn-icon btn-danger" data-toggle="panel-remove"><i className="fa fa-times" /></a>
             </div>
           </div>
           <div className="panel-body">
@@ -461,10 +461,10 @@ export default class Content extends Component {
           <div className="panel-heading">
             <h4 className="panel-title">Todo List</h4>
             <div className="panel-heading-btn">
-              <a href="javascript:;" className="btn btn-xs btn-icon btn-default" data-toggle="panel-expand"><i className="fa fa-expand" /></a>
-              <a href="javascript:;" className="btn btn-xs btn-icon btn-success" data-toggle="panel-reload"><i className="fa fa-redo" /></a>
-              <a href="javascript:;" className="btn btn-xs btn-icon btn-warning" data-toggle="panel-collapse"><i className="fa fa-minus" /></a>
-              <a href="javascript:;" className="btn btn-xs btn-icon btn-danger" data-toggle="panel-remove"><i className="fa fa-times" /></a>
+              <a href="/" className="btn btn-xs btn-icon btn-default" data-toggle="panel-expand"><i className="fa fa-expand" /></a>
+              <a href="/" className="btn btn-xs btn-icon btn-success" data-toggle="panel-reload"><i className="fa fa-redo" /></a>
+              <a href="/" className="btn btn-xs btn-icon btn-warning" data-toggle="panel-collapse"><i className="fa fa-minus" /></a>
+              <a href="/" className="btn btn-xs btn-icon btn-danger" data-toggle="panel-remove"><i className="fa fa-times" /></a>
             </div>
           </div>
           <div className="panel-body p-0">
@@ -534,10 +534,10 @@ export default class Content extends Component {
           <div className="panel-heading">
             <h4 className="panel-title">World Visitors</h4>
             <div className="panel-heading-btn">
-              <a href="javascript:;" className="btn btn-xs btn-icon btn-default" data-toggle="panel-expand"><i className="fa fa-expand" /></a>
-              <a href="javascript:;" className="btn btn-xs btn-icon btn-success" data-toggle="panel-reload"><i className="fa fa-redo" /></a>
-              <a href="javascript:;" className="btn btn-xs btn-icon btn-warning" data-toggle="panel-collapse"><i className="fa fa-minus" /></a>
-              <a href="javascript:;" className="btn btn-xs btn-icon btn-danger" data-toggle="panel-remove"><i className="fa fa-times" /></a>
+              <a href="/" className="btn btn-xs btn-icon btn-default" data-toggle="panel-expand"><i className="fa fa-expand" /></a>
+              <a href="/" className="btn btn-xs btn-icon btn-success" data-toggle="panel-reload"><i className="fa fa-redo" /></a>
+              <a href="/" className="btn btn-xs btn-icon btn-warning" data-toggle="panel-collapse"><i className="fa fa-minus" /></a>
+              <a href="/" className="btn btn-xs btn-icon btn-danger" data-toggle="panel-remove"><i className="fa fa-times" /></a>
             </div>
           </div>
           <div className="panel-body p-0">
@@ -550,10 +550,10 @@ export default class Content extends Component {
           <div className="panel-heading">
             <h4 className="panel-title">Calendar</h4>
             <div className="panel-heading-btn">
-              <a href="javascript:;" className="btn btn-xs btn-icon btn-default" data-toggle="panel-expand"><i className="fa fa-expand" /></a>
-              <a href="javascript:;" className="btn btn-xs btn-icon btn-success" data-toggle="panel-reload"><i className="fa fa-redo" /></a>
-              <a href="javascript:;" className="btn btn-xs btn-icon btn-warning" data-toggle="panel-collapse"><i className="fa fa-minus" /></a>
-              <a href="javascript:;" className="btn btn-xs btn-icon btn-danger" data-toggle="panel-remove"><i className="fa fa-times" /></a>
+              <a href="/" className="btn btn-xs btn-icon btn-default" data-toggle="panel-expand"><i className="fa fa-expand" /></a>
+              <a href="/" className="btn btn-xs btn-icon btn-success" data-toggle="panel-reload"><i className="fa fa-redo" /></a>
+              <a href="/" className="btn btn-xs btn-icon btn-warning" data-toggle="panel-collapse"><i className="fa fa-minus" /></a>
+              <a href="/" className="btn btn-xs btn-icon btn-danger" data-toggle="panel-remove"><i className="fa fa-times" /></a>
             </div>
           </div>
           <div className="panel-body">
