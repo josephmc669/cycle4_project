@@ -40,29 +40,115 @@ export default class App extends Component {
     return (
       <Router>        
           <Routes>
-            
 
             <Route
                 path='/'
                 element={(() => {
                   if (!this.state.loggedIn) {
-                    return <Navigate to={`Login`} />
+                    return <Navigate to={`/Login`} />
                   } else {
                     return <Home />
                   }
                 })()}
             />
 
-            <Route exact path="/Dashboard" element={<Dashboard />}/>
-            <Route exact path="/Facturas" element={<Facturas />}/>
-            <Route exact path="/Ordenes" element={<Ordenes />}/>
-            <Route exact path="/Reportes" element={<Reports />}/>
-            <Route exact path="/Clientes" element={<Clientes />}/>
-            <Route exact path="/Vehiculos" element={<Vehiculos />}/>
-            <Route exact path="/Puertos" element={<Puertos />}/>
-            <Route exact path="/Tarifas" element={<Tarifas />}/>
-            <Route exact path="/DatosEmpresa" element={<DatosEmpresa />}/>
+            <Route
+                path='/Dashboard'
+                element={(() => {
+                  if (!this.state.loggedIn) {
+                    return <Navigate to={`/Login`} />
+                  } else {
+                    return <Dashboard />
+                  }
+                })()}
+            />
 
+            <Route
+                path='/Facturas'
+                element={(() => {
+                  if (!this.state.loggedIn) {
+                    return <Navigate to={`/Login`} />
+                  } else {
+                    return <Facturas />
+                  }
+                })()}
+            />
+
+            <Route
+                path='/Ordenes'
+                element={(() => {
+                  if (!this.state.loggedIn) {
+                    return <Navigate to={`/Login`} />
+                  } else {
+                    return <Ordenes />
+                  }
+                })()}
+            />
+
+            <Route
+                path='/Reportes'
+                element={(() => {
+                  if (!this.state.loggedIn) {
+                    return <Navigate to={`/Login`} />
+                  } else {
+                    return <Reports />
+                  }
+                })()}
+            />
+
+            <Route
+                path='/Clientes'
+                element={(() => {
+                  if (!this.state.loggedIn) {
+                    return <Navigate to={`/Login`} />
+                  } else {
+                    return <Clientes />
+                  }
+                })()}
+            />
+
+            <Route
+                path='/Vehiculos'
+                element={(() => {
+                  if (!this.state.loggedIn) {
+                    return <Navigate to={`/Login`} />
+                  } else {
+                    return <Vehiculos />
+                  }
+                })()}
+            />
+            <Route
+                path='/Puertos'
+                element={(() => {
+                  if (!this.state.loggedIn) {
+                    return <Navigate to={`/Login`} />
+                  } else {
+                    return <Puertos />
+                  }
+                })()}
+            />
+
+            <Route
+                path='/Tarifas'
+                element={(() => {
+                  if (!this.state.loggedIn) {
+                    return <Navigate to={`/Login`} />
+                  } else {
+                    return <Tarifas />
+                  }
+                })()}
+            />
+
+            <Route
+                path='/DatosEmpresa'
+                element={(() => {
+                  if (!this.state.loggedIn) {
+                    return <Navigate to={`/Login`} />
+                  } else {
+                    return <DatosEmpresa />
+                  }
+                })()}
+            />
             <Route exact path="/Login" element={<Login />}/>
             <Route exact path="/SignUp" element={<SignUp />}/>
           </Routes>        
