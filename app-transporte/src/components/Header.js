@@ -8,7 +8,7 @@ export default class Header extends Component {
   <div id="header" className="app-header">
     {/* BEGIN navbar-header */}
     <div className="navbar-header">
-      <a href="index.html" className="navbar-brand"><span className="navbar-logo" /> <b>Color</b> Admin</a>
+      <a href="/" className="navbar-brand"><span className="navbar-logo" /> <b>Color</b> Admin</a>
       <button type="button" className="navbar-mobile-toggler" data-toggle="app-sidebar-mobile">
         <span className="icon-bar" />
         <span className="icon-bar" />
@@ -27,13 +27,13 @@ export default class Header extends Component {
         </form>
       </div>
       <div className="navbar-item dropdown">
-        <a href="#" data-bs-toggle="dropdown" className="navbar-link dropdown-toggle icon">
+        <a href="/" data-bs-toggle="dropdown" className="navbar-link dropdown-toggle icon">
           <i className="fa fa-bell" />
           <span className="badge">5</span>
         </a>
         <div className="dropdown-menu media-list dropdown-menu-end">
           <div className="dropdown-header">NOTIFICATIONS (5)</div>
-          <a href="javascript:;" className="dropdown-item media">
+          <a href="/" className="dropdown-item media">
             <div className="media-left">
               <i className="fa fa-bug media-object bg-gray-500" />
             </div>
@@ -42,9 +42,9 @@ export default class Header extends Component {
               <div className="text-muted fs-10px">3 minutes ago</div>
             </div>
           </a>
-          <a href="javascript:;" className="dropdown-item media">
+          <a href="/" className="dropdown-item media">
             <div className="media-left">
-              <img src="../assets/img/user/user-1.jpg" className="media-object" alt />
+              <img src="../assets/img/user/user-1.jpg" className="media-object" alt = "Imagen" />
               <i className="fab fa-facebook-messenger text-blue media-object-icon" />
             </div>
             <div className="media-body">
@@ -53,9 +53,9 @@ export default class Header extends Component {
               <div className="text-muted fs-10px">25 minutes ago</div>
             </div>
           </a>
-          <a href="javascript:;" className="dropdown-item media">
+          <a href="/" className="dropdown-item media">
             <div className="media-left">
-              <img src="../assets/img/user/user-2.jpg" className="media-object" alt />
+              <img src="../assets/img/user/user-2.jpg" className="media-object" alt="imagen" />
               <i className="fab fa-facebook-messenger text-blue media-object-icon" />
             </div>
             <div className="media-body">
@@ -64,7 +64,7 @@ export default class Header extends Component {
               <div className="text-muted fs-10px">35 minutes ago</div>
             </div>
           </a>
-          <a href="javascript:;" className="dropdown-item media">
+          <a href="/" className="dropdown-item media">
             <div className="media-left">
               <i className="fa fa-plus media-object bg-gray-500" />
             </div>
@@ -73,7 +73,7 @@ export default class Header extends Component {
               <div className="text-muted fs-10px">1 hour ago</div>
             </div>
           </a>
-          <a href="javascript:;" className="dropdown-item media">
+          <a href="/" className="dropdown-item media">
             <div className="media-left">
               <i className="fa fa-envelope media-object bg-gray-500" />
               <i className="fab fa-google text-warning media-object-icon fs-14px" />
@@ -84,25 +84,25 @@ export default class Header extends Component {
             </div>
           </a>
           <div className="dropdown-footer text-center">
-            <a href="javascript:;" className="text-decoration-none">View more</a>
+            <a href="/" className="text-decoration-none">View more</a>
           </div>
         </div>
       </div>
       <div className="navbar-item navbar-user dropdown">
-        <a href="#" className="navbar-link dropdown-toggle d-flex align-items-center" data-bs-toggle="dropdown">
-          <img src="../assets/img/user/user-13.jpg" alt /> 
+        <a href="/" className="navbar-link dropdown-toggle d-flex align-items-center" data-bs-toggle="dropdown">
+          <img src="../assets/img/user/user-13.jpg" alt="Imagen" /> 
           <span>
             <span className="d-none d-md-inline">Adam Schwartz</span>
             <b className="caret" />
           </span>
         </a>
         <div className="dropdown-menu dropdown-menu-end me-1">
-          <a href="javascript:;" className="dropdown-item">Edit Profile</a>
-          <a href="javascript:;" className="dropdown-item"><span className="badge bg-danger float-end rounded-pill">2</span> Inbox</a>
-          <a href="javascript:;" className="dropdown-item">Calendar</a>
-          <a href="javascript:;" className="dropdown-item">Setting</a>
+          <a href="/" className="dropdown-item">Edit Profile</a>
+          <a href="/" className="dropdown-item"><span className="badge bg-danger float-end rounded-pill">2</span> Inbox</a>
+          <a href="/" className="dropdown-item">Calendar</a>
+          <a href="/" className="dropdown-item">Setting</a>
           <div className="dropdown-divider" />
-          <a href="javascript:;" className="dropdown-item">Log Out</a>
+          <a href="/" className="dropdown-item">Log Out</a>
         </div>
       </div>
     </div>
